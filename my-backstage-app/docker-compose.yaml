@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:18-trixie
+    env_file: ".env"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USR}
+      POSTGRES_PASSWORD: ${POSTGRES_PWD}
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
