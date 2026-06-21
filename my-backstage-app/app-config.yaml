@@ -9,10 +9,13 @@ app:
     # Configure the catalog index page to be the root page, this is normally mounted on /catalog
     - page:catalog:
         config:
-          path: /
+          path: /catalog
     - page:tech-radar:
         config:
           path: /tech-radar
+    - page:home:
+        config:
+          path: /
 
 organization:
   name: My Company
