@@ -10,6 +10,9 @@ app:
     - page:catalog:
         config:
           path: /
+    - page:tech-radar:
+        config:
+          path: /tech-radar
 
 organization:
   name: My Company
