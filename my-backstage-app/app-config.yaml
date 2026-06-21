@@ -6,7 +6,8 @@ app:
   packages: all
 
   extensions:
-    # Configure the catalog index page to be the root page, this is normally mounted on /catalog
+    - api:home/visits: true
+    - app-root-element:home/visit-listener: true
     - page:catalog:
         config:
           path: /catalog
