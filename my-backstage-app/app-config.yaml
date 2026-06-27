@@ -126,7 +126,7 @@ catalog:
         organization: 'colinbut'
         catalogPath: '/catalog-info.yaml'
         filters:
-          branch: 'main'
+          #branch: 'main'
           repository: '.*'
         schedule:
           frequency: { minutes: 30 }
