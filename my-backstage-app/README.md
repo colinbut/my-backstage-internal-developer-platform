@@ -24,7 +24,7 @@ Then, to start the app, run:
 
 ```sh
 yarn install
-yarn start
+dotenv -- yarn start
 ```
 
 ## Author
