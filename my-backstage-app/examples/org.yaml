@@ -22,3 +22,5 @@ metadata:
   name: colinbut
 spec:
   memberOf: [guests]
+  profile:
+    displayName: Colin But
