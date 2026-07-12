@@ -182,3 +182,6 @@ permission:
 mcpActions:
   name: 'My Company Backstage' # defaults to "backstage"
   description: 'Tools for managing your software catalog, creating new services from templates, and exploring your developer portal' # optional
+
+techRadar:
+  url: https://github.com/colinbut/my-backstage-internal-developer-platform/blob/main/my-backstage-app/resources/techRadarResponse.json
